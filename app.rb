@@ -16,11 +16,13 @@ while joue
   win = false
   while i <9 && win == false
     if position == true
+      puts "c est au tour de #{game.player1.name}"
       choix=game.play
       game.board.placement_pions(choix,game.player1.symbole)
       position= false
       win=game.board.win
     else
+      puts "c est au tour de #{game.player2.name}"
       choix=game.play
       game.board.placement_pions(choix,game.player2.symbole)
       position= true
