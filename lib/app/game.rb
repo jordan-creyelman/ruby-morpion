@@ -70,10 +70,10 @@ end
 
   def end()
     if @player1.results > @player2.results
-    puts "gagner à #{@player1.name}"
+    puts "le joueur  #{@player1.name} à gagner avec  #{player1.results}  points contre #{player2.results} pour le joueur #{player2.name}"
      
     elsif  @player1.results < @player2.results
-    puts "gagner à #{@player2.name}"
+    puts "le joueur  #{@player2.name} à gagner avec  #{player2.results}  points contre #{player1.results} pour le joueur #{player1.name} "
     else
     puts "égalité entre #{@player1.name} et #{@player2.name}"
     end   
