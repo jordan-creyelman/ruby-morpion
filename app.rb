@@ -2,7 +2,7 @@ require_relative 'lib/app/board'
 require_relative 'lib/app/boardCase'
 require_relative 'lib/app/player'
 require_relative 'lib/app/game'
-require 'colorize'
+
 text_end =" "*12+"partie terminer"
 
 joue = true
