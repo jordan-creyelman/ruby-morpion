@@ -18,7 +18,8 @@ class Game
   end
   def presentation
       bienvenue= "Bienvenue dans le jeux du morpion"
-      cool_text(bienvenue)
+      system("figlet MORPION : 2021")
+      # cool_text(bienvenue)
       speudo_joueur1 =  "joueur 1 choisit votre pseudo"
       cool_text( speudo_joueur1)
   
@@ -48,7 +49,7 @@ class Game
        if @board.array[choix] == " "
          return choix
        else 
-          puts "erreur casse occuper"
+          puts "erreur casse occupée"
        end
       end 
   end       
